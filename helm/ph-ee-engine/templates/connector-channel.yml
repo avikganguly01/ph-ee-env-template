@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: ph-ee-connector-channel
-          image: paymenthubee.azurecr.io/phee/connector-channel
+          image: us.icr.io/phee-ns/phee-connector-channel
           ports:
             - containerPort: 5000
           env:

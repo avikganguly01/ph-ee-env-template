@@ -6,7 +6,7 @@ zeebe-cluster:
       host: "zeebe-elasticsearch"
 
   image:
-    repository: paymenthubee.azurecr.io/phee/zeebe
+    repository: us.icr.io/phee-ns/zeebe
     tag: 0.24.1-kafkaclient
   clusterSize: "1"
   partitionCount: "1"
@@ -110,3 +110,9 @@ ph_ee_operations_app:
 ph_ee_operations:
   hostname: ""
   webhost: ""
+
+ph_ee_connector_gsma:
+  SPRING_PROFILES_ACTIVE: ""
+
+ph_ee_identity:
+    hostname: ""

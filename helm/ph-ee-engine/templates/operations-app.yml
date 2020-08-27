@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: ph-ee-operations-app
-          image: paymenthubee.azurecr.io/phee/operations-app
+          image: us.icr.io/phee-ns/ph-ee-ops-bk
           ports:
             - containerPort: 5000
           readinessProbe:
