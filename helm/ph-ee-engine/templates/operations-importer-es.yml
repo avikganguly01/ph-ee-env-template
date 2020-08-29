@@ -1,5 +1,3 @@
-{{- if .Values.operations.enabled -}}
-
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -20,4 +18,4 @@ spec:
         - name: ph-ee-importer-es
           image: us.icr.io/phee-ns/phee-es-importer
 
-{{- end }}
+

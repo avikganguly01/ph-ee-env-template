@@ -1,4 +1,3 @@
-{{- if .Values.operations.enabled -}}
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -94,4 +93,4 @@ spec:
               serviceName: ph-ee-operations-app
               servicePort: 80
 
-{{- end }}
+
